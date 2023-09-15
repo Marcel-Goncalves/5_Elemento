@@ -1,0 +1,103 @@
+@charset 'UTF-8';
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&family=Inter:wght@400;600&family=Luxurious+Script&display=swap");
+
+body {
+  /*background: linear-gradient(45deg, #7a4a32,#2d1a11);#786155
+*/
+background: linear-gradient(to bottom,#baba28,#74432c);
+}
+
+#apresentacao, #produtos, #fotos, #contato{
+  background-color: #FC9465;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 1px 2px 4px black;
+  width: 80%;
+  margin: auto;
+}
+
+
+#nome {
+  text-align: center;
+  font-family: "Luxurious Script", "sans-serif";
+  font-weight: lighter;
+  font-size: 600%;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+#barraNavegacao {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  
+}
+
+nav {
+  border: 1px solid black;
+  display: inline;
+  padding: 0px 20px;
+  margin-right: 6px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 0px black;
+  background-color:#FAFC65;
+}
+
+nav:hover {
+  box-shadow: 2px 2px 1px 0px black;
+}
+
+a {
+  text-decoration: none;
+  
+  
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Luxurious Script", "sans-serif";
+  font-weight: lighter;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px white;
+}
+
+
+p {
+  padding: 10px;
+  margin: 6px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  line-height: 1.5;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: square;
+  color: white;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 1px black;
+  line-height: 2;
+}
+
+footer {
+  background-color:#baba28;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 50px;
+  text-shadow: 1px 1px 1px rgb(4, 4, 4);
+  color: white;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
