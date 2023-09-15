@@ -5,18 +5,20 @@
 body {
   /*background: linear-gradient(45deg, #7a4a32,#2d1a11);#786155
 */
-background: linear-gradient(to bottom,#baba28,#74432c);
+  background: linear-gradient(to bottom, #baba28, #74432c);
 }
 
-#apresentacao, #produtos, #fotos, #contato{
-  background-color: #FC9465;
+#apresentacao,
+#produtos,
+#fotos,
+#contato {
+  background-color: #fc9465;
   border-radius: 10px;
   text-shadow: 1px 1px 1px black;
   box-shadow: 1px 2px 4px black;
   width: 80%;
   margin: auto;
 }
-
 
 #nome {
   text-align: center;
@@ -33,7 +35,6 @@ background: linear-gradient(to bottom,#baba28,#74432c);
   text-align: center;
   font-weight: bold;
   padding-top: 10px;
-  
 }
 
 nav {
@@ -43,7 +44,7 @@ nav {
   margin-right: 6px;
   border-radius: 3px;
   box-shadow: 1px 1px 1px 0px black;
-  background-color:#FAFC65;
+  background-color: #fafc65;
 }
 
 nav:hover {
@@ -52,8 +53,6 @@ nav:hover {
 
 a {
   text-decoration: none;
-  
-  
 }
 
 h2 {
@@ -67,7 +66,6 @@ h2 {
   color: rgb(0, 0, 0);
   text-shadow: 1px 1px 1px white;
 }
-
 
 p {
   padding: 10px;
@@ -89,7 +87,7 @@ ul {
 }
 
 footer {
-  background-color:#baba28;
+  background-color: #baba28;
   text-align: center;
   font-size: 15px;
   font-weight: bolder;
